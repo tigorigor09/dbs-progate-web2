@@ -1,7 +1,48 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+a {
+    text-decoration: none;
+}
+
 .container {
     width: 1170px;
-    padding: 0px 15px;
-    margin: 0px auto;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+}
+
+.header-left {
+    float: left;
+}
+
+.logo {
+    width: 124px;
+    margin-top: 20px;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.login {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
 }
 
 .top-wrapper {
@@ -11,7 +52,6 @@
     background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
     background-size: cover;
     text-align: center;
-    
 }
 
 .top-wrapper h1 {
@@ -27,11 +67,15 @@
 }
 
 .btn-wrapper {
-    margin: 20px 0px;
+    margin: 20px 0;
 }
 
 .btn-wrapper p {
-    margin: 10px 0px;
+    margin: 10px 0;
+}
+
+.fa {
+    margin-right: 5px; 
 }
 
 .btn {
@@ -59,6 +103,23 @@
     background-color: #55acee;
 }
 
-.fa {
-    margin-right: 5px; 
+.lesson-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+}
+
+.heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+}
+
+.heading h2 {
+    font-weight: normal;
+}
+
+.lesson {
+    float: left;
+    width: 25%;
 }
