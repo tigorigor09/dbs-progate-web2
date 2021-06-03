@@ -107,6 +107,7 @@ header {
     height: 500px;
     padding-bottom: 80px;
     background-color: #f7f7f7;
+    text-align: center;
 }
 
 .heading {
@@ -115,11 +116,44 @@ header {
     color: #5f5d60;
 }
 
-.heading h2 {
+.heading h2,h3{
     font-weight: normal;
 }
+
 
 .lesson {
     float: left;
     width: 25%;
+}
+
+.lesson-icon {
+    position: relative;
+}
+
+.lesson-icon p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: white;
+}
+
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+.message-wrapper {
+    text-align: center;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #eee;
+}
+
+.message {
+    background-color: #5dca88;
+    padding: 15px 40px;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
 }
