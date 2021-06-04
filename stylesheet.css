@@ -17,6 +17,9 @@ header {
     height: 65px;
     width: 100%;
     background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
 }
 
 .header-left {
@@ -156,4 +159,23 @@ header {
     padding: 15px 40px;
     cursor: pointer;
     box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+footer {
+    padding-top: 30px;
+}
+
+footer img {
+    width: 125px;
+}
+
+footer p {
+    color: #b3aeb5;
+    font-size: 12px;
 }
